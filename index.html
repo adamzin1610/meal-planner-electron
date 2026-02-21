@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Meal Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>🍽 Smart Meal Planner</h1>
+
+  <input type="text" id="mealInput" placeholder="Search meal">
+  <button id="searchBtn">Search</button>
+  <button id="viewSavedMealsBtn">View Saved Meals</button>
+  <br>
+  <label>
+    <input type="checkbox" id="vegOnly"> Vegetarian Only
+  </label>
+
+  <br><br>
+
+  <select id="categorySelect"></select>
+  <button id="searchCategoryBtn">Search Category</button>
+</div>
+
+
+
+<h2>🔥 Popular Meals</h2>
+
+<div id="popularMeals" class="meal-grid"></div>
+
+<div id="result"></div>
+
+<button id="planBtn" style="display:none;">Save This Meal</button>
+
+<script src="script.js"></script>
+</body>
+</html>

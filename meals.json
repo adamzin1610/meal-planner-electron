@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Baklava with spiced nuts, ricotta & chocolate",
+    "category": "Dessert",
+    "calories": 630
+  },
+  {
+    "name": "BBQ Pork Sloppy Joes",
+    "category": "Pork",
+    "calories": 585
+  },
+  {
+    "name": "Polskie Nalesniki (Polish Pancakes)",
+    "category": "Dessert",
+    "calories": 1000,
+    "vegetarian": false
+  },
+  {
+    "name": "Apam balik",
+    "category": "Dessert",
+    "calories": 200,
+    "vegetarian": false
+  },
+  {
+    "name": "Apam ",
+    "category": "Dessert",
+    "calories": 200,
+    "vegetarian": false
+  }
+]

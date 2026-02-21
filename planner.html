@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meal Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="planner-container">
+
+  <h2 class="planner-title">🥗 Meal Planner</h2>
+
+  <div class="planner-card">
+    <label>Meal Name</label>
+    <input type="text" id="mealName">
+
+    <label>Category</label>
+    <input type="text" id="mealCategory">
+
+    <label>Calories</label>
+    <input type="text" id="mealCalories">
+
+    <div class="planner-buttons">
+      <button id="saveBtn">Save Meal</button>
+      <button id="updateBtn">Update</button>
+      <button id="deleteBtn">Delete</button>
+    </div>
+  </div>
+
+  <!-- SUMMARY SECTION -->
+  <div id="summaryBox">
+    <h2>🍽 Meal Planner Summary</h2>
+    <p><b>Total Calories:</b> <span id="totalCalories">0</span> kcal</p>
+    <p><b>Recommended Meal:</b> <span id="bestMeal">-</span></p>
+  </div>
+
+  <!-- FEEDBACK MESSAGE -->
+  <div id="feedback" style="display:none;"></div>
+
+  <!-- SAVED MEALS -->
+  <div class="saved-meals">
+    <h3>📌 Saved Meals</h3>
+    <div id="mealList"></div>
+  </div>
+
+</div>
+
+<script src="planner.js"></script>
+</body>
+</html>

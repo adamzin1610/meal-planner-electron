@@ -1,0 +1,170 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(to bottom, #f1f8e9, #c5e1a5);
+}
+
+.header {
+  background: linear-gradient(to right, #558b2f, #8bc34a);
+  padding: 15px;
+  color: white;
+}
+
+input, select {
+  padding: 6px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #33691e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #558b2f;
+}
+
+/* GRID */
+.meal-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.meal-card {
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  width: 180px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.meal-card:hover {
+  transform: translateY(-5px);
+}
+
+.meal-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+ul {
+  text-align: left;
+  max-width: 400px;
+  margin: auto;
+}
+
+
+/* PLANNER PAGE */
+.planner-container .meal-card {
+  width: 100%;
+  max-width: 700px;   
+  padding: 20px;
+  margin: 16px auto;
+  border-radius: 16px;
+}
+
+.planner-title {
+  background: linear-gradient(to right, #4caf50, #8bc34a);
+  color: white;
+  padding: 15px;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.planner-card {
+  background: #ffffffee;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.planner-card:hover {
+  transform: translateY(-3px);
+}
+
+.planner-card label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.planner-card input {
+  width: 95%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #c5e1a5;
+  background: #f9fff7;
+  font-size: 14px;
+}
+
+.planner-card input:focus {
+  outline: none;
+  border: 1px solid #4caf50;
+  box-shadow: 0 0 5px #8bc34a;
+}
+
+.planner-buttons {
+  margin-top: 20px;
+}
+
+.planner-buttons button {
+  margin: 6px;
+  padding: 8px 16px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.planner-buttons button:hover {
+  transform: scale(1.05);
+}
+
+
+/* SAVED MEALS SECTION */
+.saved-meals {
+  margin-top: 25px;
+}
+.saved-meals h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #33691e;
+}
+
+#mealList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#summaryBox {
+  background: #f1f8e9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#feedback {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}
